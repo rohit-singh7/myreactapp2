@@ -2,16 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #61dafb;
+  color: white;
+}
+.nav-links{
+  width:40%;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
 
 .App-header {
   background-color: #282c34;
